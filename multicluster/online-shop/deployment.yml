@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: online-shop
 spec:
-  replicas: 100
+  replicas: 50
   selector:
     matchLabels:
       app: online-shop
